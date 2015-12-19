@@ -9,7 +9,7 @@
 
 var doConfirm = true; //You can change this if you want
 
-$(document).ready(function(){
+$(function() {
 
   var isMatch = function(div){
 	  if(div.innerHTML.search("&lt;&lt;") > -1 && div.innerHTML.search("&gt;&gt;") > -1){
@@ -56,4 +56,4 @@ $(document).ready(function(){
   	  bind(positive[i]);
     }
   }
-})
+});
