@@ -24,6 +24,7 @@ $(document).ready(function(){
 	  if(isMatch(thing)){
 		  var x = thing.innerHTML.split("&lt;&lt;");
 		  var y = x[1].split("&gt;&gt;");
+		  y[0] = y[0].replace("&lt;", "<").replace("&gt;", ">");
 		  if(doConfirm){
 		    var confirmed = confirm("About to run: " + y[0]);
 		  }
