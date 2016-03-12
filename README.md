@@ -8,4 +8,5 @@ How to use:
 3. To run the code, click on the text in the comment. It will prompt you if you want to run it. Click OK.
 4. Profit
 
-''WARNING'': While this userscript itself is safe, not all JavaScript code is. Run JS code at your own risk.
+#WARNING: 
+####While this userscript itself is safe, not all JavaScript code is. Run JS code at your own risk.
